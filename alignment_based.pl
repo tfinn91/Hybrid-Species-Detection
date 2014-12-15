@@ -174,7 +174,7 @@ sub find_hybrids {
     # TODO: add params for how trees get built
     my @params = (   'ktuple' => 2
                     ,'matrix' => 'BLOSUM'
-                    ,'quiet' => 0
+                    ,'quiet' => 1
                     );
     my $factory = Bio::Tools::Run::Alignment::Clustalw->new(@params);
 
